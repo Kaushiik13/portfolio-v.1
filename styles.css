@@ -1,0 +1,170 @@
+@font-face {
+  font-family: Satoshi;
+src: url(Satoshi-Variable.ttf);
+font-family: Satoshi-italic;
+src: url(Satoshi-VariableItalic.ttf);
+}
+
+*{
+    background-color:#000000;
+    font-family: 'Satoshi',sans-serif;
+}
+.resume-btn {
+    padding: 5px 15px; /* Reduced padding for a smaller button */
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.0rem; /* Smaller font size */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand h2 {
+    font-size: 1.6rem; /* Adjust font size if needed */
+    margin-bottom: 0; /* Remove default margin for better alignment */
+}
+.centered-section {
+    margin: 0 auto; /* Centers the section horizontally */
+    width: 100%; /* Default full width for smaller screens */
+    padding-left: 1rem; /* Minimum padding for smaller screens */
+    padding-right: 1rem; /* Minimum padding for smaller screens */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+    .centered-section {
+        width: 75%; /* Slightly smaller width for medium screens */
+        padding-left: 1rem; /* Retain padding */
+        padding-right: 1rem; /* Retain padding */
+    }
+}
+
+@media (min-width: 992px) { /* lg breakpoint and larger */
+    .centered-section {
+        width: 50%; /* Set width for larger screens */
+        padding-left: 0; /* Remove extra padding for larger screens */
+        padding-right: 0; /* Remove extra padding for larger screens */
+    }
+}
+
+
+.resume-btn:hover {
+    color: black;
+}
+
+.navbar-color {
+    background-color: #000000; 
+}
+.brand{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nav
+{
+    padding-top: 4.7rem;
+    padding-bottom: 1.5rem;
+}
+.hero-span{
+    color: #fafafa;font-size: 18px;
+    font-weight: bold;
+}
+.hero-para{
+    color: #A1A1AA;
+    font-size: 13px;
+}
+.hero-about{
+    padding-top: 30px;
+    color: #fafafa;font-size: 15px;
+    font-weight: bold;
+}
+.hero-about-para
+{
+    color: #A1A1AA;
+    font-size: 14px; 
+    padding-right: 19%;
+    font-weight: lighter;
+}
+.contactme-btn {
+    padding: 6px 12px; /* Slightly increased padding for better proportions */
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.8rem; /* Smaller font size */
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-right: 10px; /* Space between buttons */
+}
+
+.contactme-btn:hover{
+    color: black;
+}
+.social-btn{
+    padding: 5px 10px; /* Reduced padding for a smaller button */
+    background-color: #27272A;
+    color: #fafafa;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem; /* Smaller font size */
+    font-weight: bold;
+    transition: all 0.3s ease; 
+    margin-right: 10px;  
+}
+.social-btn:hover{
+    color: #fafafa;
+}
+.about{
+    padding-top: 40px;
+    color: #fafafa;font-size: 18px;
+    font-weight: bold;
+}
+.about-para{
+    color: #A1A1AA;
+    font-size: 14px; 
+    padding-right: 15%;
+    font-weight: lighter;
+}
+.readmore-btn {
+    padding: 8px 16px; /* Adjusted padding for a balanced look */
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem; /* Slightly larger font size for better readability */
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 10px; /* Space between buttons */
+}
+
+.readmore-btn:hover {
+    color: black;
+    background-color: #f0f0f0; /* Optional: Add background color change on hover */
+}
+.projects{
+    padding-top: 40px;
+    color: #fafafa;font-size: 18px;
+    font-weight: bold;
+}
+.project-details img{
+    border-radius: 15px;
+}
+.project-description {
+    padding-top: 10px;
+    color: #A1A1AA;
+}
+
+.project-description-span {
+    font-weight: bold;
+}
+
+.project-link {
+    text-decoration: none; /* Remove underline from the link */
+    display: block; /* Ensure the entire area is clickable */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.project-link:hover {
+    transform: translateY(-10px); /* Elevation effect: move the element up */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow to create depth */
+}
